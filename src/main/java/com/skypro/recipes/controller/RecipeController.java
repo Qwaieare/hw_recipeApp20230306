@@ -11,10 +11,6 @@ import java.util.Map;
 public class RecipeController {
     private RecipeService recipeService;
 
-    @GetMapping
-    public String start() {
-        return "Приложение запущено";
-    }
 
     public RecipeController(RecipeService recipeService) {
         this.recipeService = recipeService;
